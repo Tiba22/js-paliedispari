@@ -12,6 +12,8 @@
 function funPalindroma(str) {
 
   var reversed = str.split('').reverse().join('');
+  var pal = 'La tua parola è palindroma!';
+  var notPal = 'La tua parola non è palindroma!';
 
   //Split per convertire in un array di lettere,
   // reverse per invertire,
@@ -19,11 +21,11 @@ function funPalindroma(str) {
 
 
   if (reversed === str) {
-    return alert("La tua parola è palindroma!");
+    return document.getElementById('maintitle').innerHTML = pal;
   }
 
   else {
-    return alert("La tua parola non è palindroma!");;
+    return document.getElementById('maintitle').innerHTML = notPal;
   }
 
 }
