@@ -65,13 +65,6 @@ function play(){
   }else {
 
     document.getElementById('maintitle').innerHTML += risultato + 'Il PC ha vinto!'
-
   }
-
-
-
-  // document.getElementById('maintitle').innerHTML = 'Hai scelto il numero ' + numUtente + ', il PC ha scelto ' + numPC + '<br>' + 'Hai scelto ' + parDisp + ', la somma totale è ' + sum + '<br>'
-
 }
-
 play();
